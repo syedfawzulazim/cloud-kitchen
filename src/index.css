@@ -1,0 +1,71 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Nato Sans JP", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: rgb(129, 117, 117);
+  color: white;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+/* li {
+  list-style: none;
+  display: inline-block;
+} */
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* img {
+  vertical-align: middle;
+  max-width: 100%;
+} */
+
+button {
+  cursor: pointer;
+}
+.br {
+  border: 2px solid red;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
